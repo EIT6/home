@@ -1,116 +1,128 @@
 <!DOCTYPE html>
-<html lang="en"><head>
-<meta http-equiv="content-type" content="text/html; charset=UTF-8">
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link rel="icon" href="https://getbootstrap.com/docs/3.3/favicon.ico">
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
 
-    <title>NIPSplorer</title>
+<head>
+  <!-- BASICS -->
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>NIPSplorer</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="css/isotope.css" media="screen" />
+  <link rel="stylesheet" href="js/fancybox/jquery.fancybox.css" type="text/css" media="screen" />
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/bootstrap-theme.css">
+  <link rel="stylesheet" href="css/style.css">
+  <!-- skin -->
+  <link rel="stylesheet" href="skin/default.css">
+  <!-- =======================================================
+    Theme Name: Amoeba
+    Theme URL: https://bootstrapmade.com/free-one-page-bootstrap-template-amoeba/
+    Author: BootstrapMade
+    Author URL: https://bootstrapmade.com
+  ======================================================= -->
+</head>
 
-    <!-- Bootstrap core CSS -->
-    <link href="bootstrap_files/bootstrap.css" rel="stylesheet">
+<body>
+  <section id="header" class="appear"></section>
+  <div class="navbar navbar-fixed-top" role="navigation" data-0="line-height:100px; height:100px; background-color:rgba(0,0,0,0.3);" data-300="line-height:60px; height:60px; background-color:rgba(0,0,0,1);">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+						<span class="fa fa-bars color-white"></span>
+					</button>
+        <h1><a class="navbar-brand" href="index.html" data-0="line-height:90px;" data-300="line-height:50px;">			EIT6
+					</a></h1>
+      </div>
+      <div class="navbar-collapse collapse">
+        <ul class="nav navbar-nav" data-0="margin-top:20px;" data-300="margin-top:5px;">
+          <li class="active"><a href="index.html">Home</a></li>
+        </ul>
+      </div>
+      <!--/.navbar-collapse -->
+    </div>
+  </div>
 
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <link href="bootstrap_files/ie10-viewport-bug-workaround.css" rel="stylesheet">
+  <section class="featured">
+    <div class="container">
+      <div class="row mar-bot40">
+        <div class="col-md-6 col-md-offset-3">
 
-    <!-- Custom styles for this template -->
-    <link href="bootstrap_files/offcanvas.css" rel="stylesheet">
-
-    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
-    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
-    <script src="bootstrap_files/ie-emulation-modes-warning.js"></script>
-
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-  </head>
-
-  <body>
-    <nav class="navbar navbar-fixed-top navbar-inverse">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="#">EIT6</a>
+          <div class="align-center">
+            <i class="fa fa-search fa-5x mar-bot20"></i>
+            <h2 class="slogan">Welcome to NIPSplorer</h2>
+            <p>
+              A project based on papers published in the Conference and Workshop on Neural Information Processing Systems (NIPS), which is a machine learning and computational neuroscience conference held every December.
+            </p>
+          </div>
         </div>
-        <div id="navbar" class="collapse navbar-collapse">
-          <ul class="nav navbar-nav">
-            <li class="active"><a href="#">Home</a></li>
-          </ul>
-        </div><!-- /.nav-collapse -->
-      </div><!-- /.container -->
-    </nav><!-- /.navbar -->
+      </div>
+    </div>
+  </section>
 
+  <!-- services -->
+  <section id="section-services" class="section pad-bot30 bg-white">
     <div class="container">
 
-      <div class="row row-offcanvas row-offcanvas-right">
-
-        <div class="col-xs-12 col-sm-9">
-          <p class="pull-right visible-xs">
-            <button type="button" class="btn btn-primary btn-xs" data-toggle="offcanvas">Toggle nav</button>
-          </p>
-          <div class="jumbotron">
-            <h1>NIPSplorer!</h1>
-            <p>A project based on papers published in the Conference and Workshop on Neural Information Processing Systems (NIPS), which is a machine learning and computational neuroscience conference held every December.</p>
+      <div class="row mar-bot40">
+        <div class="col-lg-4">
+          <div class="align-center">
+            <a href="/"><i class="fa fa-youtube-play fa-5x mar-bot20"></i></a>
+            <h4 class="text-bold">IR System</h4>
+            <p>Lorem ipsum dolor sit amet, mutat graeco volumus ad eam, singulis patrioque comprehensam nam no. Mei cu dicat voluptaria volumus.
+            </p>
           </div>
-          <div class="row">
-            <div class="col-xs-6 col-lg-4">
-              <h2>IR System</h2>
-              <p>Donec id elit non mi porta gravida at eget metus. Fusce
- dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut 
-fermentum massa justo sit amet risus. Etiam porta sem malesuada magna 
-mollis euismod. Donec sed odio dui. </p>
-              <p><a class="btn btn-default" href="/" role="button">View in Action »</a></p>
-            </div><!--/.col-xs-6.col-lg-4-->
-            <div class="col-xs-6 col-lg-4">
-              <h2>Paper References</h2>
-              <p>Donec id elit non mi porta gravida at eget metus. Fusce
- dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut 
-fermentum massa justo sit amet risus. Etiam porta sem malesuada magna 
-mollis euismod. Donec sed odio dui. </p>
-              <p><a class="btn btn-default" href="/references/" role="button">View in Action »</a></p>
-            </div><!--/.col-xs-6.col-lg-4-->
-            <div class="col-xs-6 col-lg-4">
-              <h2>Author Clustering</h2>
-              <p>Donec id elit non mi porta gravida at eget metus. Fusce
- dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut 
-fermentum massa justo sit amet risus. Etiam porta sem malesuada magna 
-mollis euismod. Donec sed odio dui. </p>
-              <p><a class="btn btn-default" href="#" role="button">View details »</a></p>
-            </div><!--/.col-xs-6.col-lg-4-->
-            </div><!--/row-->
-        </div><!--/.col-xs-12.col-sm-9-->
+        </div>
 
-      </div><!--/row-->
+        <div class="col-lg-4">
+          <div class="align-center">
+            <a href="/references/"><i class="fa fa-files-o fa-5x mar-bot20"></i></a>
+            <h4 class="text-bold">Paper References</h4>
+            <p>Lorem ipsum dolor sit amet, mutat graeco volumus ad eam, singulis patrioque comprehensam nam no. Mei cu dicat voluptaria volumus.
+            </p>
+          </div>
+        </div>
 
-      <hr>
+        <div class="col-lg-4">
+          <div class="align-center">
+            <a href="/authors/"><i class="fa fa-users fa-5x mar-bot20"></i></a>
+            <h4 class="text-bold">Author Clustering</h4>
+            <p>Lorem ipsum dolor sit amet, mutat graeco volumus ad eam, singulis patrioque comprehensam nam no. Mei cu dicat voluptaria volumus.
+            </p>
+          </div>
+        </div>
 
-      <footer>
-        <p>©EIT6</p>
-      </footer>
+      </div>
 
-    </div><!--/.container-->
+    </div>
+  </section>
 
 
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="bootstrap_files/jquery.js"></script>
-    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
-    <script src="bootstrap_files/bootstrap.js"></script>
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="bootstrap_files/ie10-viewport-bug-workaround.js"></script>
-    <script src="bootstrap_files/offcanvas.js"></script>
+
   
+  
+ 
 
-</body></html>
+  <script src="js/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+  <script src="js/jquery.js"></script>
+  <script src="js/jquery.easing.1.3.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="https://maps.google.com/maps/api/js?sensor=true"></script>
+  <script src="js/jquery.isotope.min.js"></script>
+  <script src="js/jquery.nicescroll.min.js"></script>
+  <script src="js/fancybox/jquery.fancybox.pack.js"></script>
+  <script src="js/skrollr.min.js"></script>
+  <script src="js/jquery.scrollTo.js"></script>
+  <script src="js/jquery.localScroll.js"></script>
+  <script src="js/stellar.js"></script>
+  <script src="js/jquery.appear.js"></script>
+  <script src="js/main.js"></script>
+  <script src="contactform/contactform.js"></script>
+</body>
+
+</html>
